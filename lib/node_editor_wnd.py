@@ -30,7 +30,7 @@ class NodeEditorWnd(QWidget):
         # crate graphics scene
         self.scene = Scene()
 
-        node = Node(self.scene, "Hello World",inputs=[Socket(), Socket(), Socket()], outputs=[Socket()])
+        node = Node(self.scene, "Hello World",inputs=[1,2,3,4], outputs=[1,2])
         # node2 = Node(self.scene, "Hello World2")
         #self.grScene = self.scene.grScene
 

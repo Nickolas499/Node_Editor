@@ -53,6 +53,7 @@ class QDMGraphicsNode(QGraphicsItem):
             0,
             2 * self.edge_size + self.width,
             2 * self.edge_size + self.height
+
         ).normalized()
 
     def initUI(self):
